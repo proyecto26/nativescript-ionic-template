@@ -7,9 +7,9 @@ An Ionic **(Web)** and NativeScript **(Mobile)** template with **Code Sharing**.
 Using this template you can create a **Web App (Mobile First)** using the **Ionic** components and a **Mobile Native App** using **NativeScript** with the **same code**, yay! 👏
 
 ## Contributors 🥇
-[<img alt="jdnichollsc" src="https://avatars3.githubusercontent.com/u/2154886?v=3&s=117" width="117">](https://github.com/jdnichollsc) | 
-:---: |
-[Juan Nicholls](mailto:jdnichollsc@hotmail.com) |
+[<img alt="jdnichollsc" src="https://avatars3.githubusercontent.com/u/2154886?v=3&s=117" width="117">](https://github.com/jdnichollsc) | [<img alt="Sean perkins" src="https://avatars1.githubusercontent.com/u/13732623?v=3&s=117" width="117">](https://github.com/sean-perkins) |
+:---: | :---: |
+[Juan Nicholls](mailto:jdnichollsc@hotmail.com) | [Sean Perkins](https://github.com/sean-perkins) |
 
 ## Credits 👍
 * [Angular NativeScript Seed](https://github.com/TeamMaestro/angular-native-seed)
