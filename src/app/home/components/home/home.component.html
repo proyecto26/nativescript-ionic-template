@@ -1,6 +1,11 @@
 <ion-header>
     <ion-toolbar color="dark">
-        <ion-title text-center color="dark">Ionic Web App, yay!</ion-title>
+        <ion-title color="dark">Ionic Web App, yay!</ion-title>
+        <ion-buttons end>
+            <button ion-button icon-only [routerLink]="'/about'">
+                <ion-icon name="contact"></ion-icon>
+            </button>
+        </ion-buttons>
     </ion-toolbar>
 </ion-header>
 <ion-content>

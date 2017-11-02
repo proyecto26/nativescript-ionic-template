@@ -1,4 +1,28 @@
-<h1 class="title"
-    [innerText]="'about.title' | translate"></h1>
-<p class="description"
-    [innerText]="'about.description' | translate"></p>
+<ion-header>
+    <ion-toolbar color="dark">
+        <ion-buttons left>
+            <button ion-button icon-only [routerLink]="'/home'">
+                <ion-icon name="home"></ion-icon>
+            </button>
+        </ion-buttons>
+        <ion-title color="dark">About</ion-title>
+    </ion-toolbar>
+</ion-header>
+<ion-content>
+    <ion-card>
+        <img src="https://avatars2.githubusercontent.com/u/2154886?s=460&v=4">
+        <ion-card-content>
+            <ion-card-title>
+                Juan David Nicholls Cardona
+            </ion-card-title>
+            <p>
+                FullStack Developer. Focused on Web, Mobile, Gaming and Cloud Technologies. #HTML5 #JS #AngularJS #Ionic #MongoDB #NodeJS #Microsoft #Hybrid #Phaser #Azure
+            </p>
+        </ion-card-content>
+        <ion-item>
+            <ion-icon name="logo-twitter" item-start></ion-icon>
+            Followers
+            <ion-badge item-end>26k</ion-badge>
+        </ion-item>
+    </ion-card>
+</ion-content>
