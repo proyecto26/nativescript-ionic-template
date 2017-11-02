@@ -4,7 +4,7 @@ An Ionic **(Web)** and NativeScript **(Mobile)** template with **Code Sharing**.
 ![NativeScript and Ionic](img/nativescript-ionic.png)
 
 ## Introduction 👨‍💻
-Using this template you can create a **Web App (Mobile First)** using the **Ionic** components and a **Mobile Native App** using **NativeScript** with the **same code**, yay! 👏
+Using this template you can create a **Web App (Mobile First)** using the **Ionic 3** components and a **Mobile Native App** using **NativeScript** with the **same code**, yay! 👏
 
 For more details you can check the excellent NativeScript team article about **Code Sharing Between Web and Mobile with Angular and NativeScript**: https://www.nativescript.org/blog/code-sharing-between-web-and-mobile-with-angular-and-nativescript
 
