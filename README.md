@@ -6,6 +6,21 @@ An Ionic **(Web)** and NativeScript **(Mobile)** template with **Code Sharing**.
 ## Introduction 👨‍💻
 Using this template you can create a **Web App (Mobile First)** using the **Ionic** components and a **Mobile Native App** using **NativeScript** with the **same code**, yay! 👏
 
+## Run the projects
+
+* **Ionic Web App (Angular-cli)**:
+  ```
+  npm i
+  ng serve
+  ```
+* **NativeScript Mobile App (Angular-cli)**:
+  ```
+  cd nativescript
+  npm i
+  npm run livesync
+  npm run ios (using other terminal)
+  ```
+
 ## Contributors 🥇
 [<img alt="jdnichollsc" src="https://avatars3.githubusercontent.com/u/2154886?v=3&s=117" width="117">](https://github.com/jdnichollsc) | [<img alt="Sean perkins" src="https://avatars1.githubusercontent.com/u/13732623?v=3&s=117" width="117">](https://github.com/sean-perkins) |
 :---: | :---: |
