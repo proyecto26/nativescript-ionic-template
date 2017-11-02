@@ -1,0 +1,40 @@
+<Page xmlns:Card="nativescript-cardview">
+    <ActionBar title="NativeScript Mobile App, yay!">
+    </ActionBar>
+    <scroll-view>
+        <GridLayout rows="auto, *">
+            <SearchBar row="0" hint="Search hint" [text]="Search"></SearchBar>
+            <StackLayout row="1">
+                <Card:CardView class="cardStyle" margin="10" elevation="40" radius="5">
+                    <grid-layout rows="300, auto, auto" columns="*, *, *">
+                        <image src="http://ionicframework.com/img/home/cta-iphone-2.png" stretch="aspectFill" colSpan="3" row="0" />
+                        <label text="NativeScript Mobile App" class="info" textWrap="true" row="1" colSpan="3" />          
+                        <button text="Favorite" tap="goAway" row="3" col="0" />
+                        <button text="Listen" row="3" col="1" />
+                        <button text="Share" row="3" col="2" />
+                    </grid-layout>
+                </Card:CardView>
+                <Card:CardView class="cardStyle" margin="10" elevation="40" radius="5">
+                    <grid-layout rows="200, auto, auto" columns="auto, auto, *">
+                        <image src="http://ionicframework.com/img/home/cta-iphone-2.png" stretch="aspectFill" colSpan="3" row="0" />
+                        <label text="NativeScript Mobile App" class="info" textWrap="true" row="1" colSpan="3" />          
+                        <TextView text="I'm batman!" returnKeyType="send" [editable]="false" class="input input-border" class="info" textWrap="true" row="2" colSpan="3"></TextView>
+                        <button text="Favorite" tap="goAway" row="3" col="0" />
+                        <button text="Listen" row="3" col="1" />
+                        <button text="Share" row="3" col="2" />
+                    </grid-layout>
+                </Card:CardView>
+                <Card:CardView class="cardStyle" margin="10" elevation="40" radius="5">
+                    <grid-layout rows="200, auto, auto" columns="auto, auto, *">
+                        <image src="http://ionicframework.com/img/home/cta-iphone-2.png" stretch="aspectFill" colSpan="3" row="0" />
+                        <label text="NativeScript Mobile App" class="info" textWrap="true" row="1" colSpan="3" />          
+                        <TextView text="I'm batman!" returnKeyType="send" [editable]="false" class="input input-border" class="info" textWrap="true" row="2" colSpan="3"></TextView>
+                        <button text="Favorite" tap="goAway" row="3" col="0" />
+                        <button text="Listen" row="3" col="1" />
+                        <button text="Share" row="3" col="2" />
+                    </grid-layout>
+                </Card:CardView>
+            </StackLayout>
+        </GridLayout>
+    </scroll-view>
+</Page>
