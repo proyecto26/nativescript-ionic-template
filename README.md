@@ -9,17 +9,18 @@ Using this template you can create a **Web App (Mobile First)** using the **Ioni
 ## Run the projects
 
 * **Ionic Web App (Angular-cli)**:
-  ```
+```
   npm i
   ng serve
-  ```
-* **NativeScript Mobile App (Angular-cli)**:
-  ```
+```
+
+* **NativeScript Mobile App**:
+```
   cd nativescript
   npm i
   npm run livesync
   npm run ios (using other terminal)
-  ```
+```
 
 ## Contributors 🥇
 [<img alt="jdnichollsc" src="https://avatars3.githubusercontent.com/u/2154886?v=3&s=117" width="117">](https://github.com/jdnichollsc) | [<img alt="Sean perkins" src="https://avatars1.githubusercontent.com/u/13732623?v=3&s=117" width="117">](https://github.com/sean-perkins) |
