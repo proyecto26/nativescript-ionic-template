@@ -24,6 +24,9 @@ For more details you can check the excellent NativeScript team article about **C
   npm run ios (using other terminal)
 ```
 
+## Commands
+View available commands here: [Seed commands](https://github.com/TeamMaestro/angular-native-seed/wiki/Seed-Commands)
+
 ## Contributors 🥇
 [<img alt="jdnichollsc" src="https://avatars3.githubusercontent.com/u/2154886?v=3&s=117" width="117">](https://github.com/jdnichollsc) | [<img alt="Sean perkins" src="https://avatars1.githubusercontent.com/u/13732623?v=3&s=117" width="117">](https://github.com/sean-perkins) |
 :---: | :---: |
