@@ -8,7 +8,7 @@ Using this template you can create a **Web App (Mobile First)** using **Ionic 3*
 
 For more details you can check the excellent NativeScript team article about **Code Sharing Between Web and Mobile with Angular and NativeScript**: https://www.nativescript.org/blog/code-sharing-between-web-and-mobile-with-angular-and-nativescript
 
-## Run the projects
+## Run the projects ⏯
 
 * **Ionic Web App (Angular-cli)**:
 ```
@@ -24,7 +24,7 @@ For more details you can check the excellent NativeScript team article about **C
   npm run ios (using other terminal)
 ```
 
-## Commands
+## Commands 💻
 View available commands here: [Seed commands](https://github.com/TeamMaestro/angular-native-seed/wiki/Seed-Commands)
 
 ## Contributors 🥇
