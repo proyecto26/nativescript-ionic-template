@@ -1,4 +1,4 @@
-# NativeScript Ionic Template 🤘
+# NativeScript Ionic Template ![apple](https://cdn3.iconfinder.com/data/icons/picons-social/57/16-apple-32.png) ![android](https://cdn3.iconfinder.com/data/icons/logos-3/228/android-32.png) ![ionic](https://cdn3.iconfinder.com/data/icons/logos-3/512/Ionic_Logo-2-64.png)
 An Ionic **(Web)** and NativeScript **(Mobile)** template with **Code Sharing**.
 
 ![NativeScript and Ionic](img/nativescript-ionic.png)
