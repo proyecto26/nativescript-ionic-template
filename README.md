@@ -10,7 +10,7 @@ For more details you can check the excellent NativeScript team article about **C
 
 ## Run the projects ⏯
 
-* **Ionic Web App (Angular-cli)**:
+* **Ionic Web App (Using the Angular-cli)**:
 ```
   npm i
   ng serve
