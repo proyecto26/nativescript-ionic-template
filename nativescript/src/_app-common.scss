@@ -8,11 +8,6 @@
 // Import the theme’s main ruleset.
 @import '~nativescript-theme-core/scss/index';
 
-.container {
-    margin:40;
-}
-
-.h1 {
-    font-size:32px;
-    font-weight:bold;
+.ion-icon {
+    font-family: 'Ionicons';
 }

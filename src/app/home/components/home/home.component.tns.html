@@ -1,5 +1,8 @@
 <Page xmlns:Card="nativescript-cardview">
     <ActionBar title="NativeScript Mobile App, yay!">
+        <ActionItem ios.position="right">
+            <Button class="ion-icon contact" text="{{ '\uf41a' }}" [routerLink]="'/about'"></Button>
+        </ActionItem>
     </ActionBar>
     <scroll-view>
         <GridLayout rows="auto, *">
