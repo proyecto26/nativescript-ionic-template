@@ -6,6 +6,7 @@ import { AppRoutes } from './app.routes';
 
 @NgModule({
     imports: [
+        NativeScriptRouterModule,
         NativeScriptRouterModule.forRoot(<any>AppRoutes),
     ],
     exports: [NativeScriptRouterModule]

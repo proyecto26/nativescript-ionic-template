@@ -4,5 +4,6 @@ import { Routes } from '@angular/router';
  * (do not place feature module routes here, use an own -routing.module.ts in the feature instead)
  */
 export const AppRoutes: Routes = [
-    { path: '', pathMatch: 'full', redirectTo: '/home' }
+    { path: '', pathMatch: 'full', redirectTo: '/home' },
+    { path: 'about', loadChildren: './+about/about.module#AboutModule' }
 ];

@@ -6,9 +6,5 @@ export const HomeRoutes: Routes = [
     {
         path: 'home',
         component: HomeComponent
-    },
-    {
-        path: 'about',
-        loadChildren: 'app/+about/about.module#AboutModule'
     }
 ];
