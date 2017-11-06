@@ -1,4 +1,10 @@
-<GridLayout rows="auto,auto">
-    <Label class="h1 title"
-        text="About me!"></Label>
-</GridLayout>
+<Page>
+    <ActionBar title="About">
+        <ActionItem ios.position="left" [nsRouterLink]="['/home']">
+            <Button class="ion-icon" text="{{ '\uF30C' }}"></Button>
+        </ActionItem>
+    </ActionBar>
+    <GridLayout rows="auto, *">
+        <Label class="h1 title" text="About me!"></Label>
+    </GridLayout>
+</Page>
