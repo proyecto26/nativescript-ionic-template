@@ -1,12 +1,12 @@
 import { NO_ERRORS_SCHEMA, NgModule } from '@angular/core';
 
-import { NativeScriptModule } from 'nativescript-angular/nativescript.module';
+import { NativeScriptCommonModule } from "nativescript-angular/common";
 import { NativeScriptFormsModule } from 'nativescript-angular/forms';
 
 @NgModule({
     declarations: [],
     exports: [
-        NativeScriptModule,
+        NativeScriptCommonModule,
         NativeScriptFormsModule
     ],
     schemas: [ NO_ERRORS_SCHEMA ]
