@@ -1,10 +1,10 @@
 <Page>
-    <ActionBar title="About">
-        <NavigationButton visibility="collapsed"/>
-        <ActionItem ios.position="left" [nsRouterLink]="['/home']" clearHistory="true">
-            <NavigationButton class="ion-icon" text="{{ '\uF30C' }}"></NavigationButton>
+    <ActionBarExtension>
+        <NavigationButton visibility="collapsed"></NavigationButton>
+        <ActionItem ios.position="left">
+            <Button class="ion-icon" text="{{ '\uF30C' }}" [nsRouterLink]="['/home']" clearHistory="true"></Button>
         </ActionItem>
-    </ActionBar>
+    </ActionBarExtension>
     <GridLayout rows="auto, *">
         <Label class="h1 title" text="About me!"></Label>
     </GridLayout>
