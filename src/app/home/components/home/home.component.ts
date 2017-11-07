@@ -15,16 +15,12 @@ export class HomeComponent implements OnInit {
         
     }
 
-    showAlert() {
+    showAlert(message) {
         let options = {
-            title: "Race selection",
-            message: "Race chosen: Unicorn",
+            title: "Custom Alert",
+            message: message,
             okButtonText: "OK"
         };
         alert(options);
-    }
-
-    openPage(url) {
-        this._router.navigate([url])
     }
 }

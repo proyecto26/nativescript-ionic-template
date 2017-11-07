@@ -1,33 +1,30 @@
-<Page xmlns:Card="nativescript-cardview">
+<Page xmlns:Card="nativescript-cardview" class="homePage">
     <ActionBar title="NativeScript Mobile App, yay!">
-        <ActionItem ios.position="right" (tap)="openPage('/about')">
+        <ActionItem ios.position="right" [nsRouterLink]="['/about']" pageTransition="flip">
             <Button class="ion-icon" text="{{ '\uf41a' }}"></Button>
         </ActionItem>
     </ActionBar>
-    <scroll-view>
-        <GridLayout rows="auto, *">
-            <SearchBar row="0" hint="Search hint"></SearchBar>
-            <StackLayout row="3">
-                <Button text="Issue navigating to About page using nsRouterLink" [nsRouterLink]="['/about']"></Button>
-                <Card:CardView class="cardStyle" radius="10" elevation="50" margin="20">
-                    <grid-layout rows="*, *, *" columns="*, *, *">
-                        <Image src="http://ionicframework.com/img/home/cta-iphone-2.png" margin="20" stretch="aspectFill" colSpan="3" row="0"></Image>
-                        <TextView class="description" editable="false" text="The most popular template to create web (Ionic) and native (NativeScript) mobile apps!" textWrap="true" row="1" colSpan="3"></TextView>          
-                        <Button text="Favorite" tap="goAway" row="3" col="0"></Button>
-                        <Button text="Listen" row="3" col="1"></Button>
-                        <Button text="Share" row="3" col="2"></Button>
-                    </grid-layout>
-                </Card:CardView>
-                <Card:CardView class="cardStyle" margin="20" elevation="40" radius="5">
-                    <grid-layout rows="*, *, *" columns="*, *, *">
-                        <Image src="https://upload.wikimedia.org/wikipedia/en/1/17/Batman-BenAffleck.jpg" stretch="aspectFill" colSpan="3" row="0" />
-                        <Label class="description" text="I'm batman!" textWrap="true" row="1" colSpan="3"></Label>
-                        <Button text="Favorite" tap="goAway" row="2" col="0" />
-                        <Button text="Listen" row="2" col="1" />
-                        <Button text="Share" row="2" col="2" />
-                    </grid-layout>
-                </Card:CardView>
-            </StackLayout>
-        </GridLayout>
-    </scroll-view>
+    <ScrollView>
+        <StackLayout>
+            <SearchBar hint="Search hint"></SearchBar>
+            <Card:CardView class="cardStyle" radius="10" elevation="50" margin="20">
+                <GridLayout rows="*, *, *" columns="*, *, *">
+                    <Image src="http://ionicframework.com/img/home/cta-iphone-2.png" margin="20" stretch="aspectFill" colSpan="3" row="0"></Image>
+                    <TextView class="description" editable="false" text="The most popular template to create web (Ionic) and native (NativeScript) mobile apps!" textWrap="true" row="1" colSpan="3"></TextView>          
+                    <Button (tap)="showAlert('Favorite')" text="Favorite" tap="goAway" row="3" col="0"></Button>
+                    <Button (tap)="showAlert('Listen')" text="Listen" row="3" col="1"></Button>
+                    <Button (tap)="showAlert('Share')" text="Share" row="3" col="2"></Button>
+                </GridLayout>
+            </Card:CardView>
+            <Card:CardView class="cardStyle" margin="20" elevation="40" radius="5">
+                <GridLayout rows="*, *, *" columns="*, *, *">
+                    <Image src="https://upload.wikimedia.org/wikipedia/en/1/17/Batman-BenAffleck.jpg" stretch="aspectFill" colSpan="3" row="0" />
+                    <Label class="description" text="I'm batman!" textWrap="true" row="1" colSpan="3"></Label>
+                    <Button text="Favorite" tap="goAway" row="2" col="0" />
+                    <Button text="Listen" row="2" col="1" />
+                    <Button text="Share" row="2" col="2" />
+                </GridLayout>
+            </Card:CardView>
+        </StackLayout>
+    </ScrollView>
 </Page>

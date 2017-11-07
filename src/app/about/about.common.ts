@@ -8,6 +8,7 @@ import { AboutComponent } from './components/about/about.component';
 
 export const SHARED_MODULES: any[] = [
     SharedModule,
+    RouterModule,
     RouterModule.forChild(AboutRoutes),
     TranslateModule.forChild()
 ];

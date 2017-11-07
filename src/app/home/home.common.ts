@@ -8,6 +8,7 @@ import { HomeComponent } from './components/home/home.component';
 
 export const SHARED_MODULES: any[] = [
     SharedModule,
+    RouterModule,
     RouterModule.forChild(HomeRoutes),
     TranslateModule.forChild()
 ];

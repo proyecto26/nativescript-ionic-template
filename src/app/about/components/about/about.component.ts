@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
 
 @Component({
     moduleId: module.id,
@@ -9,12 +8,8 @@ import { Router } from '@angular/router';
 })
 export class AboutComponent implements OnInit {
 
-    constructor(private _router: Router) { }
+    constructor() { }
 
     ngOnInit() {
-    }
-
-    openPage(url) {
-        this._router.navigate([url])
     }
 }

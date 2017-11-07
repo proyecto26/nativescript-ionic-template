@@ -14,7 +14,7 @@ export class AboutComponent implements OnInit {
     ngOnInit() {
     }
 
-    backPage() {
+    goBack() {
         this._router.back()
     }
 }
