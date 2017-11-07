@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
     moduleId: module.id,
@@ -8,10 +9,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-    constructor() { }
+    constructor(private _router: Router) {}
 
     ngOnInit() {
+        
+    }
 
+    openPage(url) {
+        let options = {
+            title: "Race selection",
+            message: "Race chosen: Unicorn",
+            okButtonText: "OK"
+        };
+        alert(options);
     }
 
 }
