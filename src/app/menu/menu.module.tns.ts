@@ -1,5 +1,5 @@
 import { NgModule, NO_ERRORS_SCHEMA } from '@angular/core';
-import { NativeScriptRouterModule } from 'nativescript-angular';
+import { NativeScriptRouterModule } from 'nativescript-angular/router';
 // app
 import { SHARED_MODULES, COMPONENT_DECLARATIONS, COMPONENT_EXPORTS } from './menu.common';
 

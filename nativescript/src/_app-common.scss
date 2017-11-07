@@ -9,7 +9,9 @@
 @import '~nativescript-theme-core/scss/index';
 
 .ion-icon {
-    font-family: 'Ionicons';
+    &, ActionBar & * {
+        font-family: 'Ionicons';
+    }
 
     ActionBar & {
         font-size: 35;

@@ -1,6 +1,6 @@
 {
   "name": "nativescript-ionic-template",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "scripts": {
     "postinstall": "node symlink.js",
     "ng": "ng",

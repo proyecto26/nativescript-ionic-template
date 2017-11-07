@@ -1,9 +1,9 @@
 <Page xmlns:Card="nativescript-cardview">
-    <ActionBar title="NativeScript Mobile App, yay!">
+    <ActionBarExtension>
         <ActionItem ios.position="right">
             <Button class="ion-icon" [nsRouterLink]="['/about']" text="{{ '\uf41a' }}" pageTransition="flip"></Button>
         </ActionItem>
-    </ActionBar>
+    </ActionBarExtension>
     <scroll-view>
         <GridLayout rows="auto, *">
             <SearchBar row="0" hint="Search hint" [text]="Search"></SearchBar>

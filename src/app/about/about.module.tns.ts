@@ -3,7 +3,7 @@ import { SHARED_MODULES, COMPONENT_DECLARATIONS } from './about.common';
 
 @NgModule({
     imports: [
-        ...SHARED_MODULES,
+        ...SHARED_MODULES
     ],
     declarations: [
         ...COMPONENT_DECLARATIONS

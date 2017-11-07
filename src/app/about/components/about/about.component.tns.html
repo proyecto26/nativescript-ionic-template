@@ -1,7 +1,8 @@
 <Page>
     <ActionBar title="About">
+        <NavigationButton visibility="collapsed"/>
         <ActionItem ios.position="left" [nsRouterLink]="['/home']" clearHistory="true">
-            <Button class="ion-icon" text="{{ '\uF30C' }}"></Button>
+            <NavigationButton class="ion-icon" text="{{ '\uF30C' }}"></NavigationButton>
         </ActionItem>
     </ActionBar>
     <GridLayout rows="auto, *">

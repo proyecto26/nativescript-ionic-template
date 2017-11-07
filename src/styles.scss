@@ -1,3 +1,9 @@
+// Fonts
+// --------------------------------------------------
+
+@import "fonts/roboto";
+@import "fonts/noto-sans";
+
 /*
 In many cases you may want to use the NativeScript core theme instead
 of writing your own CSS rules. For a full list of class names in the theme
@@ -6,9 +12,3 @@ refer to http://docs.nativescript.org/ui/theme.
 
 @import "~ionic-angular/themes/ionic.theme.default";
 @import "~ionic-angular/themes/ionic.components";
-
-// Fonts
-// --------------------------------------------------
-
-@import "fonts/roboto";
-@import "fonts/noto-sans";

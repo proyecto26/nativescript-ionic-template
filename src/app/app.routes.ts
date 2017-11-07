@@ -5,5 +5,6 @@ import { Routes } from '@angular/router';
  */
 export const AppRoutes: Routes = [
     { path: '', pathMatch: 'full', redirectTo: '/home' },
-    { path: 'about', loadChildren: './+about/about.module#AboutModule' }
+    { path: 'home', loadChildren: './home/home.module#HomeModule' },
+    { path: 'about', loadChildren: './about/about.module#AboutModule' }
 ];
