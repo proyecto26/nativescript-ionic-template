@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+import { RouterExtensions } from "nativescript-angular/router";
 
 @Component({
     moduleId: module.id,
@@ -9,12 +9,12 @@ import { Router } from '@angular/router';
 })
 export class AboutComponent implements OnInit {
 
-    constructor(private _router: Router) { }
+    constructor(private _router: RouterExtensions) { }
 
     ngOnInit() {
     }
 
-    openPage(url) {
-        this._router.navigate([url])
+    backPage() {
+        this._router.back()
     }
 }

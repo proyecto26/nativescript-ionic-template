@@ -1,10 +1,9 @@
 <Page>
-    <ActionBarExtension>
-        <NavigationButton visibility="collapsed"></NavigationButton>
-        <ActionItem ios.position="left">
-            <Button class="ion-icon" text="{{ '\uF30C' }}" [nsRouterLink]="['/home']" clearHistory="true"></Button>
+    <ActionBar title="About">
+        <ActionItem ios.position="left" (tap)="backPage()">
+            <Button class="ion-icon" text="{{ '\uF30C' }}"></Button>
         </ActionItem>
-    </ActionBarExtension>
+    </ActionBar>
     <StackLayout>
         <Label class="h1 title" text="About me!"></Label>
     </StackLayout>

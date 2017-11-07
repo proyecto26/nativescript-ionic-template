@@ -15,7 +15,7 @@ export class HomeComponent implements OnInit {
         
     }
 
-    openPage(url) {
+    showAlert() {
         let options = {
             title: "Race selection",
             message: "Race chosen: Unicorn",
@@ -24,4 +24,7 @@ export class HomeComponent implements OnInit {
         alert(options);
     }
 
+    openPage(url) {
+        this._router.navigate([url])
+    }
 }
