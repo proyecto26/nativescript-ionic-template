@@ -12,14 +12,15 @@ For more details you can check the excellent NativeScript team article about **C
 
 * **Ionic Web App (Using the Angular-cli)**:
 ```
-  npm i
+  npm install
   ng serve
 ```
 
-* **NativeScript Mobile App**:
+* **NativeScript Mobile App** ():
 ```
+  npm install (It's required to create the symlinks before to execute the app)
   cd nativescript
-  npm i
+  npm install
   npm run livesync
   npm run ios (using other terminal)
 ```
