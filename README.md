@@ -16,9 +16,9 @@ For more details you can check the excellent NativeScript team article about **C
   ng serve
 ```
 
-* **NativeScript Mobile App** ():
+* **NativeScript Mobile App**:
 ```
-  npm install (It's required to create the symlinks before to execute the app)
+  npm install (It's required to create the symlinks at the first time before to execute the app)
   cd nativescript
   npm install
   npm run livesync
