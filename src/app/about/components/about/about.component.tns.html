@@ -1,14 +1,13 @@
-<Page xmlns:Card="nativescript-cardview">
-    <ActionBar title="About">
-        <ActionItem ios.position="left" (tap)="goBack()">
-            <Button class="ion-icon" text="{{ '\uF30C' }}"></Button>
-        </ActionItem>
-    </ActionBar>
-    <ScrollView>
-        <Card:CardView row="0" class="cardStyle" radius="10" elevation="50" margin="20">
-            <GridLayout rows="*, *, *" columns="*, *, *">
-                <Image src="https://avatars3.githubusercontent.com/u/2154886?v=3" margin="20" stretch="aspectFill" colSpan="3" row="0"></Image>
-            </GridLayout>
-        </Card:CardView>
-    </ScrollView>
-</Page>
+<ActionBar title="About">
+    <NavigationButton visibility="collapsed"></NavigationButton>
+    <ActionItem ios.position="left" (tap)="goBack()">
+        <Button class="ion-icon" text="{{ '\uF30C' }}"></Button>
+    </ActionItem>
+</ActionBar>
+<ScrollView>
+    <Card:CardView row="0" class="cardStyle" radius="10" elevation="50" margin="20">
+        <GridLayout rows="*, *, *" columns="*, *, *">
+            <Image src="https://avatars3.githubusercontent.com/u/2154886?v=3" margin="20" stretch="aspectFill" colSpan="3" row="0"></Image>
+        </GridLayout>
+    </Card:CardView>
+</ScrollView>
