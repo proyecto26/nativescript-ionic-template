@@ -1,15 +1,27 @@
-img {
-    max-height: 355px;
-    width: auto;
-    margin: 0 auto;
-}
+.aboutPage{
+    img {
+        max-height: 355px;
+        width: auto;
+        margin: 0 auto;
+    }
 
-.cardStyle{
-    background-color:#fff;
-    
-    .description {
-        margin-top:10px;
-        margin-bottom: 10px;
-        padding: 15px;
+    ion-card {
+        margin: 20px;
+        width: auto;
+    }
+
+    .cardStyle {
+        background-color:#fff;
+
+        .title {
+            font-size: 18;
+            margin-left: 15;
+            margin-top: 20;
+        }
+
+        .description {
+            font-size: 14;
+            padding: 15;
+        }
     }
 }
