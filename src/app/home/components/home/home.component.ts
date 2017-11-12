@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+import { Component, OnInit } from '@angular/core'
+import { MenuController } from 'ionic-angular'
 
 @Component({
     moduleId: module.id,
@@ -7,20 +7,15 @@ import { Router } from '@angular/router';
     templateUrl: './home.component.html',
     styleUrls: ['./home.component.scss']
 })
-export class HomeComponent implements OnInit {
+export class HomeComponent {
 
-    constructor(private _router: Router) {}
+    constructor(public menuCtrl: MenuController) {}
 
-    ngOnInit() {
-        
+    openMenu() {
+        this.menuCtrl.open()
     }
 
     showAlert(message) {
-        let options = {
-            title: "Custom Alert",
-            message: message,
-            okButtonText: "OK"
-        };
-        alert(options);
+        alert(message)
     }
 }

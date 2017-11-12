@@ -1,44 +1,65 @@
-<ion-header>
-    <ion-toolbar color="dark">
-        <ion-title color="dark">Ionic Web App, yay!</ion-title>
-        <ion-buttons end>
-            <button ion-button icon-only [routerLink]="'/about'">
-                <ion-icon name="contact"></ion-icon>
+<ion-menu [content]="mycontent">
+    <ion-header>
+        <ion-toolbar>
+            <ion-title class="menuTitle">Menu</ion-title>
+        </ion-toolbar>
+    </ion-header>
+    <ion-content>
+        <ion-list>
+            <ion-item no-padding margin-left>Primary</ion-item>
+            <ion-item no-padding margin-left>Social</ion-item>
+            <ion-item no-padding margin-left>Promotions</ion-item>
+            <ion-item no-padding margin-left>Sent Mail</ion-item>
+            <ion-item menuClose no-padding margin-left>Close Menu</ion-item>
+        </ion-list>
+    </ion-content>
+</ion-menu>
+<div class="ion-page show-page" #mycontent>
+    <ion-header>
+        <ion-toolbar color="dark">
+            <button ion-button menuToggle left>
+                <ion-icon name="menu"></ion-icon>
             </button>
-        </ion-buttons>
-    </ion-toolbar>
-</ion-header>
-<ion-content class="homePage">
-    <ion-searchbar></ion-searchbar>
-    <ion-card>
-        <img src="http://ionicframework.com/img/home/cta-iphone-2.png"/>
-        <ion-card-content>
-            <ion-card-title>
-                Ionic Web App
-            </ion-card-title>
-            <p>
-                The most popular template to create web <b>(Ionic)</b> and native <b>(NativeScript)</b> mobile apps!
-            </p>
-        </ion-card-content>
-        <ion-row no-padding>
-            <ion-col>
-            <button ion-button clear small color="danger" icon-start>
-                <ion-icon name='star'></ion-icon>
-                Favorite
-            </button>
-            </ion-col>
-            <ion-col text-center>
-            <button ion-button clear small color="danger" icon-start>
-                <ion-icon name='musical-notes'></ion-icon>
-                Listen
-            </button>
-            </ion-col>
-            <ion-col text-right>
-            <button ion-button clear small color="danger" icon-start>
-                <ion-icon name='share-alt'></ion-icon>
-                Share
-            </button>
-            </ion-col>
-        </ion-row>
-    </ion-card>
-</ion-content>
+            <ion-title color="dark">Ionic Web App, yay!</ion-title>
+            <ion-buttons end>
+                <button ion-button icon-only [routerLink]="'/about'">
+                    <ion-icon name="contact"></ion-icon>
+                </button>
+            </ion-buttons>
+        </ion-toolbar>
+    </ion-header>
+    <ion-content class="homePage">
+        <ion-searchbar></ion-searchbar>
+        <ion-card>
+            <img src="http://ionicframework.com/img/home/cta-iphone-2.png"/>
+            <ion-card-content>
+                <ion-card-title>
+                    Ionic Web App
+                </ion-card-title>
+                <p>
+                    The most popular template to create web <b>(Ionic)</b> and native <b>(NativeScript)</b> mobile apps!
+                </p>
+            </ion-card-content>
+            <ion-row no-padding>
+                <ion-col>
+                <button ion-button clear small color="danger" icon-start (tap)="showAlert('Favorite')">
+                    <ion-icon name='star'></ion-icon>
+                    Favorite
+                </button>
+                </ion-col>
+                <ion-col text-center>
+                <button ion-button clear small color="danger" icon-start (tap)="showAlert('Listen')">
+                    <ion-icon name='musical-notes'></ion-icon>
+                    Listen
+                </button>
+                </ion-col>
+                <ion-col text-right>
+                <button ion-button clear small color="danger" icon-start (tap)="showAlert('Share')">
+                    <ion-icon name='share-alt'></ion-icon>
+                    Share
+                </button>
+                </ion-col>
+            </ion-row>
+        </ion-card>
+    </ion-content>
+</div>

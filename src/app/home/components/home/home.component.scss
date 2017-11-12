@@ -19,3 +19,35 @@
         }
     }
 }
+
+.mainContentButton {
+    margin: 10;
+    horizontal-align: left;
+}
+
+.drawerContentButton {
+    color: #53535d;
+}
+
+.menuTitle {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.sideStackLayout {
+    background-color: #F8F8F8;
+}
+
+.sideTitleStackLayout {
+    height: 56;
+    text-align: center;
+    vertical-align: center;
+}
+
+.sideLabel {
+    padding: 10;
+}
+
+.sideLightGrayLabel {
+    background-color: lightgray;
+}

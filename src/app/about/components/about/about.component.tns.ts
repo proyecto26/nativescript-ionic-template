@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import { RouterExtensions } from "nativescript-angular/router";
+import { Component, OnInit } from '@angular/core'
+import { RouterExtensions } from "nativescript-angular/router"
 
 @Component({
     moduleId: module.id,
