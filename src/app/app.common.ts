@@ -1,10 +1,7 @@
-import { AppRoutingModule } from './app-routing.module';
-// demo
-import { MenuModule } from './menu/menu.module';
+import { AppRoutingModule } from './app-routing.module'
 
 export const SHARED_MODULES: any[] = [
-    AppRoutingModule,
-    MenuModule
-];
+    AppRoutingModule
+]
 
-export * from './app-routing.module';
+export * from './app-routing.module'
