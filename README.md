@@ -25,7 +25,7 @@ For more details you can check the excellent NativeScript team article about **C
   npm run ios (using other terminal)
 ```
 
-## Use [Ionic icons](https://ionicframework.com/docs/ionicons/) from the Mobile App
+## Use [Ionic icons](https://ionicframework.com/docs/ionicons/) from the NativeScript side
 NativeScript requires the **unicode** of the icon, you can find the unicode with the name of the icon from the content of the `src/fonts/ionicons.svg` file and later you can use it from a `<Label>` or `<Button>`, example:
 ```
 // name: ion-ios-contact, unicode: &#xf41a;
