@@ -1,5 +1,5 @@
 import { Component, OnInit, ViewChild, AfterViewInit } from '@angular/core'
-import { RadSideDrawer, SideDrawerLocation } from "nativescript-pro-ui/sidedrawer"
+import { RadSideDrawer, DrawerTransitionBase, ScaleUpTransition, PushTransition, SideDrawerLocation } from "nativescript-pro-ui/sidedrawer"
 import { RadSideDrawerComponent } from "nativescript-pro-ui/sidedrawer/angular"
 
 @Component({
@@ -9,16 +9,28 @@ import { RadSideDrawerComponent } from "nativescript-pro-ui/sidedrawer/angular"
     styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements AfterViewInit, OnInit {
+    private _sideDrawerTransition: DrawerTransitionBase
     private _currentLocation : SideDrawerLocation
-    @ViewChild(RadSideDrawerComponent) public drawerComponent: RadSideDrawerComponent
     private drawer: RadSideDrawer
 
+    @ViewChild(RadSideDrawerComponent) 
+    public drawerComponent: RadSideDrawerComponent
+
     ngOnInit() {
+        this.sideDrawerTransition = new ScaleUpTransition();
         this.currentLocation = SideDrawerLocation.Left
     }
 
     ngAfterViewInit() {
         this.drawer = this.drawerComponent.sideDrawer
+    }
+
+    get sideDrawerTransition(): DrawerTransitionBase {
+        return this._sideDrawerTransition;
+    }
+
+    set sideDrawerTransition(value: DrawerTransitionBase) {
+        this._sideDrawerTransition = value;
     }
 
     get currentLocation(): SideDrawerLocation {

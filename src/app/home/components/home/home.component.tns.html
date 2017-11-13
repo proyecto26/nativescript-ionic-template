@@ -6,7 +6,7 @@
         <Button class="ion-icon" text="&#xf41a;"></Button>
     </ActionItem>
 </ActionBar>
-<RadSideDrawer [drawerLocation]="currentLocation" showOverNavigation="true">
+<RadSideDrawer [drawerTransition]="sideDrawerTransition" [drawerLocation]="currentLocation" showOverNavigation="true">
     <StackLayout tkDrawerContent class="sideStackLayout" paddingTop="8">
         <StackLayout class="sideTitleStackLayout">
             <Label text="Menu" marginTop="10" class="menuTitle"></Label>
@@ -17,7 +17,7 @@
             <Label text="Promotions" class="sideLabel"></Label>
             <Label text="Sent Mail" class="sideLabel"></Label>
         </StackLayout>
-        <Label text="Close Drawer" (tap)="closeMenu()" class="mainContentButton drawerContentButton"></Label>
+        <Label text="Close Menu" (tap)="closeMenu()" class="mainContentButton drawerContentButton"></Label>
     </StackLayout>
     <ScrollView class="homePage" tkMainContent>
         <StackLayout>
