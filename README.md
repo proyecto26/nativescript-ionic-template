@@ -35,6 +35,10 @@ NativeScript requires the **unicode** of the icon, you can find the unicode with
 ## Commands 💻
 View available commands here: [Seed commands](https://github.com/TeamMaestro/angular-native-seed/wiki/Seed-Commands)
 
+## Resources
+- [Progress NativeScript UI samples](https://github.com/telerik/nativescript-ui-samples-angular)
+- [The Ionic Super Starter](https://github.com/ionic-team/starters/tree/master/ionic-angular/official/super)
+
 ## Contributors 🥇
 [<img alt="jdnichollsc" src="https://avatars3.githubusercontent.com/u/2154886?v=3&s=117" width="117">](https://github.com/jdnichollsc) | [<img alt="Sean perkins" src="https://avatars1.githubusercontent.com/u/13732623?v=3&s=117" width="117">](https://github.com/sean-perkins) |
 :---: | :---: |
