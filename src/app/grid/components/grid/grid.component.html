@@ -1,0 +1,26 @@
+<ion-header>
+    <ion-toolbar color="dark">
+        <ion-buttons left>
+            <button ion-button icon-only [routerLink]="'/home'">
+                <ion-icon name="home"></ion-icon>
+            </button>
+        </ion-buttons>
+        <ion-title color="dark">Grid</ion-title>
+    </ion-toolbar>
+</ion-header>
+<ion-content class="gridPage">
+    <ion-grid>
+        <ion-row>
+            <ion-col class="item" align-self-center col-6 col-sm-4 col-md-4 col-lg-2 col-xl-2 *ngFor="let item of items">
+                <ion-card>
+                    <button ion-item style="background: rgba(0,0,0,0);">
+                        <img [src]="item.thumbnailUrl">
+                        <ion-card-content>
+                            <ion-card-title class="title" text-uppercase>{{ item.title }}</ion-card-title>
+                        </ion-card-content>
+                    </button>
+                </ion-card>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+</ion-content>

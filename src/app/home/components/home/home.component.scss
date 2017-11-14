@@ -22,7 +22,7 @@
 
 ion-menu {
 
-    ion-content, ion-item:not(.itemSelected), ion-title {
+    ion-content, ion-item:not(.itemSelected), ion-title, ion-toolbar ::ng-deep .toolbar-background {
         background-color: #5B69C3;
     }
 

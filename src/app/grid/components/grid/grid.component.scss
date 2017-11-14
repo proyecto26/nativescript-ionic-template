@@ -1,0 +1,38 @@
+.gridPage {
+
+    .item {
+        padding: 0;
+        text-align: center;
+
+        ::ng-deep .item-inner {
+            padding: 0;
+        }
+
+        ::ng-deep ion-label {
+            margin: 0;
+        }
+
+        img {
+            max-height: 170px;
+            width: auto;
+            margin: 0 auto;
+        }
+
+        .title {
+            font-size: 13px;
+            text-align: center;
+            color: #808090;
+            max-width: 100%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            text-transform: uppercase;
+        }
+    }
+}
+
+.labelsStackLayout {
+    margin-top: 16;
+    padding-left: 16;
+    padding-right: 16;
+}

@@ -6,5 +6,6 @@ import { Routes } from '@angular/router';
 export const AppRoutes: Routes = [
     { path: '', redirectTo: '/home', pathMatch: 'full' },
     { path: 'home', loadChildren: 'app/home/home.module#HomeModule' },
-    { path: 'about', loadChildren: 'app/about/about.module#AboutModule' }
+    { path: 'about', loadChildren: 'app/about/about.module#AboutModule' },
+    { path: 'grid', loadChildren: 'app/grid/grid.module#GridModule' }
 ];

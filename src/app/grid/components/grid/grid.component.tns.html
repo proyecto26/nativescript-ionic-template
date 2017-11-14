@@ -1,0 +1,21 @@
+<ActionBar title="Grid">
+    <NavigationButton></NavigationButton>
+</ActionBar>
+<GridLayout class="gridPage">
+    <RadListView [items]="items">
+        <ng-template let-item="item">
+            <StackLayout class="listItemTemplateGrid" class="item">
+                <StackLayout height="170" width="100%">
+                    <Image [src]="item.thumbnailUrl" stretch="aspectFit" height="100%" width="100%"></Image>
+                </StackLayout>
+                <StackLayout class="labelsStackLayout">
+                    <Label class="title" maxLines="1" [text]="item.title"></Label>
+                </StackLayout>
+            </StackLayout>
+        </ng-template>
+
+        <!-- >> angular-listview-item-layouts-grid -->
+        <ListViewGridLayout tkListViewLayout scrollDirection="Vertical" ios:itemHeight="220" spanCount="2"></ListViewGridLayout>
+        <!-- << angular-listview-item-layouts-grid -->
+    </RadListView>
+</GridLayout>

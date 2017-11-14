@@ -3,6 +3,7 @@ import { Http } from '@angular/http';
 // nativescript
 import { NSModuleFactoryLoader } from 'nativescript-angular/router';
 import { NativeScriptHttpModule } from 'nativescript-angular/http';
+import { NativeScriptHttpClientModule } from "nativescript-angular/http-client";
 import { NativeScriptModule } from 'nativescript-angular/nativescript.module';
 // vendor dependencies
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
@@ -28,6 +29,7 @@ export function createTranslateLoader(http: Http) {
     imports: [
         NativeScriptModule,
         NativeScriptHttpModule,
+        NativeScriptHttpClientModule,
         TranslateModule.forRoot({
             loader: {
                 provide: TranslateLoader,
