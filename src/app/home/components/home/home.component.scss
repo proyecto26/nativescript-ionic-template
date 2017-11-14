@@ -20,20 +20,38 @@
     }
 }
 
+ion-menu {
+
+    ion-content, ion-item:not(.itemSelected), ion-title {
+        background-color: #5B69C3;
+    }
+
+    ion-item {
+        border: none !important;
+        ::ng-deep .item-inner {
+            border: none;
+        }
+    }
+}
+
 .mainContentButton {
     margin: 10;
     horizontal-align: left;
 }
 
-.drawerContentButton {
-    color: #FC5969;
+.drawerContentButton, [menuclose] {
+    color: #F6B500;
     font-weight: bold;
 }
 
 .menuTitle {
+    color: white;
     text-transform: uppercase;
     font-weight: bold;
-    color: white;
+
+    ::ng-deep .toolbar-title {
+        color: white;
+    }
 }
 
 .sideStackLayout {
@@ -50,6 +68,6 @@
     padding: 10;
 }
 
-.sideLightGrayLabel {
+.itemSelected {
     background-color: lightgray;
 }
