@@ -6,6 +6,8 @@
 ## Introduction 👨‍💻
 Using this template you can create a **Web App (Mobile First)** using **Ionic 3** components and a **Mobile Native App** using **NativeScript** with the **same code**, yay! 👏
 
+![Native and Web Grid](img/grid.png)
+
 For more details you can check the excellent NativeScript team article about **Code Sharing Between Web and Mobile with Angular and NativeScript**: https://www.nativescript.org/blog/code-sharing-between-web-and-mobile-with-angular-and-nativescript
 
 ## Run the projects ⏯
