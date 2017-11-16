@@ -10,6 +10,12 @@ Using this template you can create a **Web App (Mobile First)** using **Ionic 3*
 
 For more details you can check the excellent NativeScript team article about **Code Sharing Between Web and Mobile with Angular and NativeScript**: https://www.nativescript.org/blog/code-sharing-between-web-and-mobile-with-angular-and-nativescript
 
+## How does it work? 
+Check the excellent video of [Sebastian Witalec](https://github.com/sebawita) about **Sharing Code Between Web and Native Apps** 
+
+[![Sharing Code Between Web and Native Apps](https://img.youtube.com/vi/HMPkXk_vXDw/0.jpg)](https://youtu.be/HMPkXk_vXDw?t=11m56s)
+
+
 ## Run the projects ⏯
 
 * **Ionic Web App (Using the Angular-cli)**:
