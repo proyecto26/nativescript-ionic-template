@@ -1,6 +1,6 @@
 # NativeScript Ionic Template {N} ![apple](https://cdn3.iconfinder.com/data/icons/picons-social/57/16-apple-32.png) ![android](https://cdn3.iconfinder.com/data/icons/logos-3/228/android-32.png) ![ionic](https://cdn3.iconfinder.com/data/icons/logos-3/512/Ionic_Logo-2-64.png)
 **Native mobile Apps** with [NativeScript](https://www.nativescript.org/) and **Web Apps (Mobile First)** with [Ionic](http://ionicframework.com/) styles and components sharing the same code with Angular!
-
+>This template uses the default navigation of Angular, the navigation of Ionic 3 is not recommended to develop websites, therefore it is not recommended to use Ionic components that require Ionic navigation. However, in this template you can find an example of how to use components such as the side menu without depending on the navigation.
 ![NativeScript and Ionic](img/nativescript-ionic.png)
 
 ## Introduction 👨‍💻
