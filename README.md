@@ -47,7 +47,8 @@ View available commands here: [Seed commands](https://github.com/TeamMaestro/ang
 ## Resources
 - [Styling](https://docs.nativescript.org/ui/styling#supported-css-properties)
 - [Progress NativeScript UI samples](https://github.com/telerik/nativescript-ui-samples-angular)
-- [The Ionic Super Starter](https://github.com/ionic-team/starters/tree/master/ionic-angular/official/super)
+- [awesome-nativescript](https://github.com/jbristowe/awesome-nativescript)
+- [Awesome {N}](https://github.com/DeviantJS/awesome-nativescript)
 
 ## Contributors 🥇
 [<img alt="jdnichollsc" src="https://avatars3.githubusercontent.com/u/2154886?v=3&s=117" width="117">](https://github.com/jdnichollsc) | [<img alt="Sean perkins" src="https://avatars1.githubusercontent.com/u/13732623?v=3&s=117" width="117">](https://github.com/sean-perkins) |
