@@ -57,9 +57,12 @@ Extension                        | Platform
 View available commands here: [Seed commands](https://github.com/TeamMaestro/angular-native-seed/wiki/Seed-Commands)
 
 ## Resources
+- [NativeScript Quick Setup](https://docs.nativescript.org/start/quick-setup)
+- [The NativeScript book](https://www.nativescript.org/get-the-nativescript-book)
 - [Ionic CSS Utilities](http://ionicframework.com/docs/theming/css-utilities/)
 - [NativeScript Styling](https://docs.nativescript.org/ui/styling#supported-css-properties)
 - [NativeScript Layout Containers](https://docs.nativescript.org/ui/layout-containers)
+- [Professional UI Components](https://www.nativescript.org/ui-for-nativescript)
 - [Progress NativeScript UI samples](https://github.com/telerik/nativescript-ui-samples-angular)
 - [awesome-nativescript](https://github.com/jbristowe/awesome-nativescript)
 - [Awesome {N}](https://github.com/DeviantJS/awesome-nativescript)
