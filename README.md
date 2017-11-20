@@ -41,6 +41,18 @@ NativeScript requires the **unicode** of the icon, you can find the unicode with
 <Button class="ion-icon" fontSize="25" text="&#xf41a;"></Button>
 ```
 
+## Custom templates for each platform
+Target **Phone** and **Tablet** Templates individually. The following extensions are supported:
+
+Extension                        | Platform
+-------------------------------- | -----------
+`.{html/scss}`                   | Only for web
+`.tns.{html/scss}`               | Only for mobile
+`.tns.ios.{html/scss}`           | Only for iOS
+`.tns.android.{html/scss}`       | Only for Android
+`.tns.ios.phone.{html/scss}`     | Only for iOS Phone 
+`.tns.android.phone.{html/scss}` | Only for Android Phone
+
 ## Commands 💻
 View available commands here: [Seed commands](https://github.com/TeamMaestro/angular-native-seed/wiki/Seed-Commands)
 
