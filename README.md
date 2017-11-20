@@ -46,7 +46,7 @@ Target **Phone** and **Tablet** Templates individually. The following extensions
 
 Extension                        | Platform
 -------------------------------- | -----------
-`.{html/scss}`                   | Only for web
+`.{html/scss}`                   | Web platform. Used from mobile when there is no **.tns** extension
 `.tns.{html/scss}`               | Only for mobile
 `.tns.ios.{html/scss}`           | Only for iOS
 `.tns.android.{html/scss}`       | Only for Android
