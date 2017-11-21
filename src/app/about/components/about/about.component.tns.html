@@ -9,10 +9,10 @@
         <Card:CardView row="0" class="cardStyle" radius="10" elevation="50" margin="20">
             <StackLayout>
                 <Image src="https://avatars3.githubusercontent.com/u/2154886?v=3" stretch="aspectFill" colSpan="3" row="0"></Image>
-                <Label row="1" colSpan="3" class="title" text="Juan David Nicholls Cardona"></Label>
-                <TextView isUserInteractionEnabled="false" class="description" editable="false" text="FullStack Developer. Focused on Web, Mobile, Gaming and Cloud Technologies. #JS #Angular #Ionic #NativeScript #MongoDB #NodeJS #Azure #Hybrid #Phaser" textWrap="true" row="2" colSpan="3"></TextView>          
+                <Label row="1" colSpan="3" class="title" [text]="autor.name"></Label>
+                <TextView isUserInteractionEnabled="false" class="description" editable="false" [text]="autor.description" textWrap="true" row="2" colSpan="3"></TextView>          
                 <GridLayout rows="auto, *, *" columns="auto, *, *">
-                    <Button row="0" col="0" class="ion-icon" marginLeft="15" text="{{ '&#xf2b0;' }}" />
+                    <Button row="0" col="0" class="ion-icon" marginLeft="15" text="&#xf2b0;" />
                     <Button row="0" col="1" colSpan="2" horizontalAlignment="left" text="Followers" />
                     <Button row="0" col="2" horizontalAlignment="right" marginRight="15" text="26k"/>
                 </GridLayout>

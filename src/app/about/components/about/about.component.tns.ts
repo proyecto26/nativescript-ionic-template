@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core'
-import { RouterExtensions } from "nativescript-angular/router"
+import { Component } from '@angular/core'
+import { RouterExtensions } from 'nativescript-angular/router'
+import { Common } from './about.component.common'
 
 @Component({
     moduleId: module.id,
@@ -7,11 +8,10 @@ import { RouterExtensions } from "nativescript-angular/router"
     templateUrl: './about.component.html',
     styleUrls: ['./about.component.scss']
 })
-export class AboutComponent implements OnInit {
+export class AboutComponent extends Common {
 
-    constructor(private _router: RouterExtensions) { }
-
-    ngOnInit() {
+    constructor(private _router: RouterExtensions) {
+        super()
     }
 
     goBack() {

@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core'
+import { Component } from '@angular/core'
+import { Common } from './about.component.common'
 
 @Component({
     moduleId: module.id,
@@ -6,10 +7,9 @@ import { Component, OnInit } from '@angular/core'
     templateUrl: './about.component.html',
     styleUrls: ['./about.component.scss']
 })
-export class AboutComponent implements OnInit {
+export class AboutComponent extends Common {
 
-    constructor() { }
-
-    ngOnInit() {
+    constructor() {
+        super()
     }
 }
