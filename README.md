@@ -11,7 +11,7 @@ Using this template you can create a **Web App (Mobile First)** using **Ionic 3*
 
 For more details you can check the excellent NativeScript team article about **Code Sharing Between Web and Mobile with Angular and NativeScript**: https://www.nativescript.org/blog/code-sharing-between-web-and-mobile-with-angular-and-nativescript
 
-## How does it work? 
+## How does it work? ☕
 Check the excellent video of [Sebastian Witalec](https://github.com/sebawita) about **Sharing Code Between Web and Native Apps** 
 
 [![Sharing Code Between Web and Native Apps](https://img.youtube.com/vi/HMPkXk_vXDw/0.jpg)](https://youtu.be/HMPkXk_vXDw?t=11m56s)
@@ -34,14 +34,14 @@ Check the excellent video of [Sebastian Witalec](https://github.com/sebawita) ab
   npm run ios (using other terminal)
 ```
 
-## Use [Ionic icons](https://ionicframework.com/docs/ionicons/) from the NativeScript side
+## Use [Ionic icons](https://ionicframework.com/docs/ionicons/) from the NativeScript side 🎁
 NativeScript requires the **unicode** of the icon, you can find the unicode with the name of the icon from the content of the `src/fonts/ionicons.svg` file and later you can use it from a `<Label>` or `<Button>`, example:
 ```
 // name: ion-ios-contact, unicode: &#xf41a;
 <Button class="ion-icon" fontSize="25" text="&#xf41a;"></Button>
 ```
 
-## Custom templates for each platform
+## Custom templates for each platform 🥂
 Target **Phone** and **Tablet** Templates individually. The following extensions are supported:
 
 Extension                        | Platform
@@ -53,10 +53,12 @@ Extension                        | Platform
 `.tns.ios.phone.{html/scss}`     | Only for iOS Phone 
 `.tns.android.phone.{html/scss}` | Only for Android Phone
 
+![Code Splitting](img/code-splitting.png)
+
 ## Commands 💻
 View available commands here: [Seed commands](https://github.com/TeamMaestro/angular-native-seed/wiki/Seed-Commands)
 
-## Resources
+## Resources ⛩
 - [NativeScript Quick Setup](https://docs.nativescript.org/start/quick-setup)
 - [The NativeScript book](https://www.nativescript.org/get-the-nativescript-book)
 - [Ionic CSS Utilities](http://ionicframework.com/docs/theming/css-utilities/)
