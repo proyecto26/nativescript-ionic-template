@@ -21,18 +21,28 @@ Check the excellent video of [Sebastian Witalec](https://github.com/sebawita) ab
 
 * **Ionic Web App (Using the Angular-cli)**:
 ```
-  npm install
+  npm install (It's required to create the symlinks at the first time before to execute the app)
   ng serve
 ```
 
 * **NativeScript Mobile App**:
 ```
-  npm install (It's required to create the symlinks at the first time before to execute the app)
   cd nativescript
   npm install
-  npm run livesync
+  npm run livesync (Required to detect changes and reload the app from the simulator/device)
   npm run ios (using other terminal)
 ```
+
+## Commands 💻
+View available commands here: [Seed commands](https://github.com/TeamMaestro/angular-native-seed/wiki/Seed-Commands)
+
+## Getting Started
+Command | Action
+------- | ------
+`npm install -g @angular/cli` | Install the Angular-cli. Remember see the documentation [here](https://github.com/angular/angular-cli#generating-components-directives-pipes-and-services)
+`ng g module [name]` | Generate a new Module. Recommended to create sections of your app that will load components with Lazy Loading.
+`ng g component [name]` | Generate a new Component in the current directory.
+`ng g service [name]` | Generate a new Service. The `app/providers/` path is recommended for shared services among several components.
 
 ## Use [Ionic icons](https://ionicframework.com/docs/ionicons/) from the NativeScript side 🎁
 NativeScript requires the **unicode** of the icon, you can find the unicode with the name of the icon from the content of the `src/fonts/ionicons.svg` file and later you can use it from a `<Label>` or `<Button>`, example:
@@ -55,9 +65,6 @@ Extension                        | Platform
 
 ![Code Splitting](img/code-splitting.png)
 
-## Commands 💻
-View available commands here: [Seed commands](https://github.com/TeamMaestro/angular-native-seed/wiki/Seed-Commands)
-
 ## Resources ⛩
 - [NativeScript Quick Setup](https://docs.nativescript.org/start/quick-setup)
 - [The NativeScript book](https://www.nativescript.org/get-the-nativescript-book)
@@ -70,9 +77,9 @@ View available commands here: [Seed commands](https://github.com/TeamMaestro/ang
 - [Awesome {N}](https://github.com/DeviantJS/awesome-nativescript)
 
 ## Contributors 🥇
-[<img alt="jdnichollsc" src="https://avatars3.githubusercontent.com/u/2154886?v=3&s=117" width="117">](https://github.com/jdnichollsc) | [<img alt="Sean perkins" src="https://avatars1.githubusercontent.com/u/13732623?v=3&s=117" width="117">](https://github.com/sean-perkins) |
+| [<img alt="Sean perkins" src="https://avatars1.githubusercontent.com/u/13732623?v=3&s=117" width="117">](https://github.com/sean-perkins) | [<img alt="jdnichollsc" src="https://avatars3.githubusercontent.com/u/2154886?v=3&s=117" width="117">](https://github.com/jdnichollsc) 
 :---: | :---: |
-[Juan Nicholls](mailto:jdnichollsc@hotmail.com) | [Sean Perkins](https://github.com/sean-perkins) |
+[Sean Perkins](https://github.com/sean-perkins) | [Juan Nicholls](mailto:jdnichollsc@hotmail.com) |
 
 ## Credits 👍
 * [Angular NativeScript Seed](https://github.com/TeamMaestro/angular-native-seed)
