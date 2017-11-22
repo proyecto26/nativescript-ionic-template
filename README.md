@@ -36,7 +36,7 @@ Check the excellent video of [Sebastian Witalec](https://github.com/sebawita) ab
 ## Commands 💻
 View available commands here: [Seed commands](https://github.com/TeamMaestro/angular-native-seed/wiki/Seed-Commands)
 
-## Getting Started
+## Getting Started 📚
 Command | Action
 ------- | ------
 `npm install -g @angular/cli` | Install the Angular-cli. Remember see the documentation [here](https://github.com/angular/angular-cli#generating-components-directives-pipes-and-services)
