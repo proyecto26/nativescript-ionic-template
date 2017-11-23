@@ -41,7 +41,7 @@ Command | Action
 ------- | ------
 `npm install -g @angular/cli` | Install the Angular-cli. Remember see the documentation [here](https://github.com/angular/angular-cli#generating-components-directives-pipes-and-services)
 `ng g module [name]` | Generate a new Module. Recommended to create sections of your app that will load components with Lazy Loading.
-`ng g component [name]` | Generate a new Component in the current directory.
+`ng g component [name]` | Generate a new Component in the current directory. Remember add the **moduleId** property `moduleId: module.id` in every component
 `ng g service [name]` | Generate a new Service. The `app/providers/` path is recommended for shared services among several components.
 
 ## Use [Ionic icons](https://ionicframework.com/docs/ionicons/) from the NativeScript side 🎁
@@ -64,6 +64,19 @@ Extension                        | Platform
 `.tns.android.phone.{html/scss}` | Only for Android Phone
 
 ![Code Splitting](img/code-splitting.png)
+
+## Angular Tips
+Syntax                            | Meaning
+--------------------------------- | -----------
+`{{ title }}`<br/>`{{ getTitle() }}` | Render a value dynamically, this expression will be evaluated at run time.
+`[src]="imageUrl"`                | **Property Binding:** Bind a property of a DOM element to a field of the component.
+`[attr.colspan]="colSpan"`        | **Attribute Binding** 
+`[class.selected]="user.selected"`| **Class Binding**: Add a class dynamically.
+`[style.color]="isActive? 'green': 'red'"` | **Style Binding**
+`(tap)="onSave($event)"           | **Event Binding**
+`(keyup.enter)="onEnter()"`       | **Event Filtering**
+`#email (keyup.enter)="onEnter(email.value)` | **Template variables**
+`[(ngModel)]="user.email"`        | **Two-way Binding**. Import **FormsModule** is required.
 
 ## Resources ⛩
 - [NativeScript Quick Setup](https://docs.nativescript.org/start/quick-setup)
