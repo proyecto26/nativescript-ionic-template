@@ -73,7 +73,7 @@ Syntax                            | Meaning
 `[attr.colspan]="colSpan"`        | **Attribute Binding** 
 `[class.selected]="user.selected"`| **Class Binding**: Add a class dynamically.
 `[style.color]="isActive? 'green': 'red'"` | **Style Binding**
-`(tap)="onSave($event)"           | **Event Binding**
+`(tap)="onSave($event)"`          | **Event Binding**
 `(keyup.enter)="onEnter()"`       | **Event Filtering**
 `#email (keyup.enter)="onEnter(email.value)` | **Template variables**
 `[(ngModel)]="user.email"`        | **Two-way Binding**. Import **FormsModule** is required.
