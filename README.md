@@ -77,7 +77,7 @@ Syntax                            | Meaning
 `(keyup.enter)="onEnter()"`       | **Event Filtering**
 `#email (keyup.enter)="onEnter(email.value)` | **Template variables**
 `[(ngModel)]="user.email"`        | **Two-way Binding**. Import **FormsModule** is required.
-`{{ price | currency:'AUD' }}`    | **Pipes:** Format data.
+`{{ price \| currency:'AUD' }}`   | **Pipes:** Format data.
 
 ## Resources ⛩
 - [NativeScript Quick Setup](https://docs.nativescript.org/start/quick-setup)
