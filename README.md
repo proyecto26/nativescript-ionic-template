@@ -66,8 +66,8 @@ Extension                        | Platform
 ![Code Splitting](img/code-splitting.png)
 
 ## Angular Tips
-Syntax                            | Meaning
---------------------------------- | -----------
+Syntax                            | Meaning     | Expected Result 
+--------------------------------- | ----------- | ------------
 `{{ title }}`<br/>`{{ getTitle() }}` | Render a value dynamically, this expression will be evaluated at run time.
 `[src]="imageUrl"`                | **Property Binding:** Bind a property of a DOM element to a field of the component.
 `[attr.colspan]="colSpan"`        | **Attribute Binding** 
@@ -79,7 +79,7 @@ Syntax                            | Meaning
 `[(ngModel)]="user.email"`        | **Two-way Binding**. Import **FormsModule** is required.
 `{{ price \| currency:'AUD' }}`   | **Pipes:** Format data.
 `@Input('input-property') myData;`<br/>`<example [input-property]="data">` | **Input Properties:** Input data for the component.
-`@Output() change= new EventEmitter();`<br/>`this.change.emit({msg: 'Hi!'});`<br/>`<example (change)="onChange($event)">`<br/>`onChange({ msg }) {console.log(msg)}` | **Output Properties:** Raise events from the component.
+`@Output() change= new EventEmitter();`<br/>`this.change.emit({msg: 'Hi!'});`<br/>`<example (change)="onChange($event)">`<br/> | **Output Properties:** Raise events from the component. | onChange({msg})<br/>{<br/>console.log(msg)<br/>}
 
 ## Resources ⛩
 - [NativeScript Quick Setup](https://docs.nativescript.org/start/quick-setup)
