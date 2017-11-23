@@ -79,7 +79,7 @@ Syntax                            | Meaning     | Expected Result
 `[(ngModel)]="user.email"`        | **Two-way Binding**. Import **FormsModule** is required.
 `{{ price \| currency:'AUD' }}`   | **Pipes:** Format data.
 `@Input('input-property') myData;`<br/>`<example [input-property]="data">` | **Input Properties:** Input data for the component.
-`@Output() change= new EventEmitter();`<br/>`this.change.emit({msg: 'Hi!'});`<br/>`<example (change)="onChange($event)">`<br/> | **Output Properties:** Raise events from the component. | onChange({msg})<br/>{<br/>console.log(msg)<br/>}
+`@Output('output-property') change= new EventEmitter();`<br/>`this.change.emit({msg: 'Hi!'});`<br/>`<example (output-property)="onChange($event)">`<br/> | **Output Properties:** Raise events from the component. | onChange({msg})<br/>{<br/>console.log(msg)<br/>}
 
 ## Resources ⛩
 - [NativeScript Quick Setup](https://docs.nativescript.org/start/quick-setup)
