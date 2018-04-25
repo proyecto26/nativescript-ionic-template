@@ -1,6 +1,6 @@
 import { Component, OnInit, ViewChild, AfterViewInit } from '@angular/core'
-import { RadSideDrawer, DrawerTransitionBase, ScaleUpTransition, PushTransition, SideDrawerLocation } from "nativescript-pro-ui/sidedrawer"
-import { RadSideDrawerComponent } from "nativescript-pro-ui/sidedrawer/angular"
+import { RadSideDrawer, DrawerTransitionBase, ScaleUpTransition, PushTransition, SideDrawerLocation } from 'nativescript-ui-sidedrawer';
+import { RadSideDrawerComponent } from 'nativescript-ui-sidedrawer/angular';
 
 @Component({
     moduleId: module.id,

@@ -1,7 +1,6 @@
 import { NgModule, NO_ERRORS_SCHEMA, NgModuleFactoryLoader } from '@angular/core';
-import { Http } from '@angular/http';
+import { HttpClientModule, HttpClient } from '@angular/common/http';
 // nativescript
-import { NSModuleFactoryLoader } from 'nativescript-angular/router';
 import { NativeScriptHttpModule } from 'nativescript-angular/http';
 import { NativeScriptHttpClientModule } from "nativescript-angular/http-client";
 import { NativeScriptModule } from 'nativescript-angular/nativescript.module';
@@ -18,7 +17,7 @@ elementRegistryModule.registerElement("CardView", () => require("nativescript-ca
 
 Config.PLATFORM_TARGET = Config.PLATFORMS.MOBILE_NATIVE;
 
-export function createTranslateLoader(http: Http) {
+export function createTranslateLoader(http: HttpClient) {
     return new TranslateHttpLoader(<any>http, '/assets/i18n/', '.json');
 }
 
@@ -30,21 +29,11 @@ export function createTranslateLoader(http: Http) {
         NativeScriptModule,
         NativeScriptHttpModule,
         NativeScriptHttpClientModule,
-        TranslateModule.forRoot({
-            loader: {
-                provide: TranslateLoader,
-                useFactory: (createTranslateLoader),
-                deps: [Http]
-            }
-        }),
+        TranslateModule.forRoot(),
         ...SHARED_MODULES
     ],
     declarations: [
         AppComponent
-    ],
-    providers: [
-        // Allows your {N} application to use lazy-loading
-        { provide: NgModuleFactoryLoader, useClass: NSModuleFactoryLoader }
     ],
     schemas: [
         NO_ERRORS_SCHEMA
